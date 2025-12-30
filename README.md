@@ -125,8 +125,8 @@ An AI-powered live chat support system. This application simulates a customer su
 ### Step 1: Clone the Repository
 
 ```bash
-git clone https://github.com/YOUR_USERNAME/spur-ai-chat.git
-cd spur-ai-chat
+git clone https://github.com/YOUR_USERNAME/Ai-Chat.git
+cd Ai-Chat
 ```
 
 ### Step 2: Backend Setup
