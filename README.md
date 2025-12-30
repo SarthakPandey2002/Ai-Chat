@@ -1,6 +1,19 @@
 # AI Chat Support Agent
 
-An AI-powered live chat support system.This application simulates a customer support chat where an AI agent answers user questions using real LLM integration.
+An AI-powered live chat support system. This application simulates a customer support chat where an AI agent answers user questions using real LLM integration.
+
+## 🚀 Live Demo
+
+- **Frontend**: https://ai-chat-delta-ivory.vercel.app/
+- **Backend API**: https://ai-chat-gceq.onrender.com
+- **Health Check**: https://ai-chat-gceq.onrender.com/health
+
+**Try it now!** Open the frontend URL and ask questions like:
+- "What are your shipping options?"
+- "How do I return an item?"
+- "What payment methods do you accept?"
+
+---
 
 ## 🛠️ Tech Stack
 
