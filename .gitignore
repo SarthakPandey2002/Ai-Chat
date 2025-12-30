@@ -1,0 +1,13 @@
+# OS files
+.DS_Store
+Thumbs.db
+
+# IDE files
+.vscode
+.idea
+*.sublime-*
+
+# Environment files
+.env
+.env.local
+.env.*.local

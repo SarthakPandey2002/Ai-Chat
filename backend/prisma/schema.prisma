@@ -1,0 +1,27 @@
+  generator client {
+    provider = "prisma-client-js"
+  }
+
+  datasource db {
+    provider = "sqlite"
+    url      = "file:./dev.db"
+  }
+
+  model Conversation {
+    id        String    @id @default(uuid())
+    createdAt DateTime  @default(now())
+    updatedAt DateTime  @updatedAt
+    messages  Message[]
+  }
+
+  model Message {
+    id             String       @id @default(uuid())
+    conversationId String
+    conversation   Conversation @relation(fields: [conversationId], references: [id], onDelete: Cascade)
+    sender         String
+    text           String
+    createdAt      DateTime     @default(now())
+
+    @@index([conversationId])
+    @@index([conversationId, createdAt]) // Composite index for efficient history queries
+  }
